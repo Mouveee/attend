@@ -1,0 +1,23 @@
+@font-face {
+  font-family: robotoFont;
+  src: url('./fonts/Roboto-Thin.ttf');
+}
+
+* {
+  box-sizing: border-box;
+  font-family: robotoFont;
+  user-select: none;
+  color: white;
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255,220,128);
+  transition: 400ms;
+}
+
+.App {
+  text-align: center;
+}
+
