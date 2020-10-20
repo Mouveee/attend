@@ -17,6 +17,11 @@ a {
   transition: 400ms;
 }
 
+a:hover {
+  cursor: pointer;
+  color: white;
+}
+
 .App {
   text-align: center;
 }

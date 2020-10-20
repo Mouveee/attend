@@ -1,0 +1,30 @@
+.container {
+    width: 100%;
+    background-color: black;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.content {
+    margin: auto;
+    width: 85%;
+}
+
+.header {
+    margin: 0;
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+
+.icon {
+    margin-top: 1em;
+    width: 6rem;
+    height: 6rem;
+}
+
+.item {
+    color: black;
+    border-left: 0.3rem dotted  rgb(225,48,108);
+    border-right: 0.3rem dotted  rgb(225,48,108);
+    margin-bottom: 2rem;
+}

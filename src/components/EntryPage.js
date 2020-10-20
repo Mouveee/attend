@@ -8,22 +8,17 @@ export default function EntryPage(props) {
       className={styles.container}
     >
       <div className={styles.content}>
-        Als Web Developer liegen meine Kernkompetenzen im Umgang mit Technologien wie <i>HTML, Javascript und CSS</i>{' '}
-        sowie verwandten Tools, Libraries und Frameworks. Diese Seite wurde zum Beispiel
-        mit <i>React</i> erstellt.
-        Eine detailliertere Auflistung meiner Kenntnisse und Erfahrungen findet sich unter <i>Kenntnisse</i>.
-        <br></br>
-        Als Web Developer besteht ein Großteil meiner Aufgaben in der Konzeptionierung und Gestaltung von Websites
-        und deren praktischer Umsetzung in Codeform im Frontend, sowie in der Entwicklung von REST-APIs und
-        Datenverarbeitung im Backend.
-        Ich sehe mich dabei als klassischen Problemlöser: Der Kunde hat ein Problem, meine Aufgabe ist es, dieses zu analysieren,
-        seinen Ursprung zu finden und es schließlich zu lösen.
-        <br></br>
-        Neben der Webentwicklung beschäftige ich mich intensiv mit digital erstellter Musik und Sounddesign mit <i>Ableton Live</i> und bin
-        begeisterter Leser von Romanen.
-        <br></br>
-        Ich bin erreichbar unter meiner <i><a type="email" className="App-clickable" href="mailto:huwig.marco@gmail.com">E-Mail Adresse </a></i>{'\u00A0'}
-        oder in den <i>Kontaktdaten</i>.
+        Hi, mein Name ist Marco Huwig, ich bin Web Developer und lebe in Saarbrücken. 
+        <br></br><br></br>
+        Ich habe mich 2017 vollends auf die Entwicklung von Software im Web spezialiert und 2019
+        an der IHK Saar meinen Abschluss an der IHK Saar gemacht. Mein Abschlussprojekt war ein
+        Microsoft basiertes Projekt in der Azure Cloud, das sowohl Front- als auch Backend Coding
+        beinhaltete. 
+        <br></br><br></br>
+        Ich bin immer auf der Suche nach Möglichkeiten, meine Fähigkeiten und Kenntnisse
+        nützlich einzubringen und freue mich über jede <a href="mailto:huwig.marco@gmail.de">Kontaktaufnahme</a>.
+        Insbesondere zu allem was die Themen HTML, CSS und JavaScript und den gigantischen Kosmos, der sie 
+        umgibt, betrifft. 
       </div>
     </section>
   )
