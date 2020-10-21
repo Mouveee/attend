@@ -24,7 +24,7 @@
 
 .item {
     color: black;
-    border-left: 0.3rem dotted  rgb(225,48,108);
-    border-right: 0.3rem dotted  rgb(225,48,108);
+    border-left: 0.3rem dotted rgb(225,48,108);
+    border-right: 0.3rem dotted rgb(225,48,108);
     margin-bottom: 2rem;
 }
