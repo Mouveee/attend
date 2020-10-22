@@ -11,9 +11,9 @@ export default function Interests(props) {
 
             <div className={styles.content}>
                 {
-                    _interests.map(interest => {
+                    _interests.map((interest, index) => {
                         return(
-                            <section key={interest}>
+                            <section key={interest + '-' + index}>
                                 <div className={styles.header}><b>{interest.title}</b></div>
                                 <div>   {interest.text}</div>
                                 <br></br>

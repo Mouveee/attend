@@ -1,7 +1,7 @@
 export const _skills = [
     {
         name: 'Javascript',
-        skills: ['React', 'Jquery', 'NodeJS', 'Express', 'ES6', 'Typescript', 'Storybook']
+        skills: ['React', 'JQuery', 'NodeJS', 'Express', 'ES6', 'Typescript', 'Storybook']
     },
     {
         name: 'HTML',
@@ -25,6 +25,6 @@ export const _skills = [
     },
     {
         name: 'Fremdsprachen',
-        skills: ['Englisch, \nsehr gut in Wort und Schrift']
+        skills: ['Englisch, ziemlich gut aber nicht sehr gut']
     }
 ]

@@ -1,17 +1,30 @@
-import * as React from 'react'
+import React from 'react'
 
 import styles from './NavBar.module.css'
 
-import DehazeIcon from '@material-ui/icons/Dehaze';
+import { _navItems } from './NavBar.ressource'
 
 export default function NavBar(props) {
-    const handleClick = () => {
-        alert('where is the navbar?')
-    }
-
     return (
-        <div className={styles.container}>
-            <DehazeIcon onClick={handleClick} className={styles.navButton}></DehazeIcon>
-        </div>
+        <nav className={`${styles.container} ${props.visible ? '' : styles.outbound}`}>
+            <ul>
+                {
+                   _navItems.map((item, index) => {
+                       return (
+                        <li 
+                            className={styles.listItem} 
+                            key={'list-' + index} 
+                            onClick={() => {
+                                props.handleClick()
+                                props.handleNavClick(props[item.navPoint])
+                            }}
+                        >
+                            {item.item}
+                        </li>
+                       )
+                    }) 
+                }
+            </ul>
+        </nav>
     )
 }

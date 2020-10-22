@@ -1,0 +1,16 @@
+.container {
+    position: fixed;
+    top: 1em;
+    right: 1em;
+    height: fit-content;
+    width: fit-content;
+    z-index: 998;
+}
+
+.container:hover{
+    cursor: pointer;
+}
+
+.navButton:hover {
+    cursor: pointer;
+}
