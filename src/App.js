@@ -17,11 +17,24 @@ class App extends Component {
   constructor(props) {
     super(props)
     this.state = {
+      isTop: true,
       visibleNavBar: false
     }
 
     this.setNavBarVisibility.bind(this)
+    this.setScreenPosition.bind(this)
     scrollToComponent.bind(this)
+  }
+
+  componentDidMount = () => {
+    window.addEventListener('scroll', () => {
+      const isTop = window.scrollY < 100
+      this.setState({isTop})
+    })
+  }
+
+  setScreenPosition = e => {
+    console.log(`set screen to ${this.state.scrollPosition}`)
   }
 
   setNavBarVisibility = () => {
@@ -49,7 +62,9 @@ class App extends Component {
         </NavIcon>
 
         <section ref={section => this.Start = section}>
-          <Header></Header>
+          <Header 
+            isTop={this.state.isTop}>
+          </Header>
         </section>
 
         <EntryPage></EntryPage>
@@ -58,12 +73,12 @@ class App extends Component {
           <Skills></Skills>
         </section>
 
-        <section ref={section => this.Interests = section}>
-          <Interests></Interests>
-        </section>
-
         <section ref={section => this.Qualifications = section}>
           <Qualifications></Qualifications>
+        </section>
+        
+        <section ref={section => this.Interests = section}>
+          <Interests></Interests>
         </section>
 
         <section ref={section => this.About = section}>

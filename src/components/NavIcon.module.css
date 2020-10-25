@@ -4,10 +4,12 @@
     right: 1em;
     height: fit-content;
     width: fit-content;
+    transition: .3s;
     z-index: 998;
 }
 
 .container:hover{
+    opacity: 0.8;
     cursor: pointer;
 }
 

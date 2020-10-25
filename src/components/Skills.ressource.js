@@ -25,6 +25,6 @@ export const _skills = [
     },
     {
         name: 'Fremdsprachen',
-        skills: ['Englisch, ziemlich gut aber nicht sehr gut']
+        skills: ['Englisch, ich lese englische Romane (und schlage mit dem Handy gelegentlich Vokabeln nach), \n\nschaue Filme im Original und spreche es eigentlich ziemlich gut']
     }
 ]

@@ -1,15 +1,15 @@
 export const _interests = [
         {
-            title: 'Music',
-            text: 'Hören. Und machen. Mit Ukulele, Gitarre oder Ableton Live'
+            title: 'Musik',
+            text: 'Hören. Und machen. Mit Ukulele, Gitarre oder Ableton Live. Bitte keinen Reggae. Sonst fast alles.'
         },
         {
-            title: 'Literature',
-            text: 'Haruki Murakami, Dostojewski (wirklich), momentan viel Raymond Chandler'
+            title: 'Literatur',
+            text: 'Haruki Murakami, Dostojewski (wirklich), momentan viel Raymond Chandler.'
         },
         {
             title: 'Gaming',
-            text: 'Nicht mehr viel, aber immer wieder Dark Souls(likes) und Metroid(vanias)'
+            text: 'Nicht mehr so oft, aber immer wieder mal. Dark Souls(likes) und Metroid(vanias) und alle Zeldas außer Teil 2. Sonst eher Indie als AAA.'
         }
 ]
 

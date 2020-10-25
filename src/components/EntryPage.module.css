@@ -2,10 +2,6 @@
     box-sizing: border-box;
 }
 
-i {
-    transform: rotateX('90');
-}
-
 .container {
     height: fit-content;
     background: linear-gradient(to bottom,rgb(193,53,132), rgb(225,48,108));
@@ -20,5 +16,5 @@ i {
     text-align: left;
     color: white;
     margin: auto;
-    padding-bottom: 12em;
+    padding-bottom: 4em;
 }

@@ -12,7 +12,7 @@ export default function EntryPage(props) {
         <br></br><br></br>
         Ich habe mich 2017 auf die Webentwicklung spezialisiert und 2019
         meinen Abschluss an der IHK Saar gemacht. In der <i>Microsoft Cloud</i> (Azure, SharePoint,
-        PowerApps zum Beispiel) habe ich bereits mehrere Auftragsrojekte mit <i>Experts Inside</i> umgesetzt
+        PowerApps etc...) habe ich bereits mehrere Auftragsrojekte mit <i>Experts Inside</i> umgesetzt
         und dabei sowohl mit Frontend Entwicklung und Coding im Backend, konkret REST APIs,
         Erfahrungen gesammelt.  
         <br></br><br></br>

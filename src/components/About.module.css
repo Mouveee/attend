@@ -3,6 +3,8 @@
     color: white;
     height: fit-content;
     padding: 2rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
 }
 
 .content {
