@@ -12,6 +12,7 @@
     transition: .6s;
 }
 
+/* This will move the container off the screen */
 .container.outbound {
     right: -100%;
 }

@@ -38,11 +38,17 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    opacity: 0.08;
+    opacity: 0.5;
     top: 0;
     left: 0;
     mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
 }
+
+@media (max-width: 768px) {
+    .video {
+      object-position: -20vh;
+    }
+  }
 
 .faderClass {
     opacity: 0;
